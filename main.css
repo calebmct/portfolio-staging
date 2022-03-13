@@ -5,32 +5,32 @@
   }
   @font-face {
     font-family: "HK Grotesk";
-    src: url('fonts/HK Grotesk Pro Regular.otf') format('otf');
+    src: url('fonts/hk_grotesk_pro_regular.woff2') format('woff2'), url('fonts/hk_grotesk_pro_regular.woff') format('woff');
     font-weight: normal;
   }
   @font-face {
     font-family: "Lulo Clean Outline";
-    src: url('fonts/Lulo Clean Outline Bold.otf') format('otf');
+    src: url('fonts/lulo_clean_outline_bold.woff2') format('woff2'), url('fonts/lulo_clean_outline_bold.woff') format('woff');
     font-weight: bold;
   }
   @font-face {
     font-family: "Gilroy-ExtraBold";
-    src: url('fonts/Gilroy-ExtraBold.otf') format('otf');
+    src: url('fonts/gilroy-extrabold.woff2') format('woff2'), url('fonts/gilroy-extrabold.woff') format('woff');
     font-weight: bold;
   }
   @font-face {
     font-family: "Knicknack";
-    src: url('fonts/Knicknack Regular.otf') format('otf');
+    src: url('fonts/knicknack_regular.woff2') format('woff2'), url('fonts/knicknack_regular.woff2') format('woff2');
     font-weight: normal;
   }
   @font-face {
     font-family: "Vocal";
-    src: url('fonts/Vocal Light.otf') format('otf');
+    src: url('fonts/vocal_light.woff2') format('woff'), url('fonts/vocal_light.woff') format('woff');
     font-weight: thin;
   }
   @font-face {
     font-family: "Maipo";
-    src: url('fonts/Maipo Sans SemiBold.otf') format('otf');
+    src: url('fonts/maipo_sans_semibold.woff2') format('woff2'), url('fonts/maipo_sans_semibold.woff') format('woff');
     font-weight: bold;
   }
 
