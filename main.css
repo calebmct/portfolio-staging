@@ -72,17 +72,20 @@
       width: 250px;
       display: block;
 }
-#header-right {
+  .header-right {
     float: right;
     text-align: right;
     padding: 0 12px;
 }
-  #header-right a:hover {
+  .header-right a {
+      margin: 0 4px;
+  }
+  .header-right a:hover {
       color: var(--blue);
   }
   #title {
       font-family: 'Runalto','Times New Roman', Times, serif;
       font-size: 1.8rem;
       color: var(--magenta);
-      padding-right: 12px;
+      margin-right: 4px;
   }
