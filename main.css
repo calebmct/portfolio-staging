@@ -33,21 +33,57 @@
     src: url('fonts/maipo_sans_semibold.woff2') format('woff2'), url('fonts/maipo_sans_semibold.woff') format('woff');
     font-weight: bold;
   }
+  @font-face {
+    font-family: "Paradroid-Mono";
+    src: url('fonts/ParadroidMonoLight.woff2') format('woff2'), url('fonts/ParadroidMonoLight.woff') format('woff');
+    font-weight: thin;
+  }
+  @font-face {
+    font-family: "Runalto";
+    src: url('fonts/Runalto.woff') format('woff');
+    font-weight: normal;
+  }
+
+  :root {
+    --dkblue: #4a5a73;
+    --magenta: #b23eb8;
+    --yellow: #d2c71a;
+    --blue: #56959c;
+  }
 
   body {
-      font-size: 2.5rem;
-      color: black;
-      background-color: #f9f1ff;
+      font-size: 1.5rem;
+      color: var(--dkblue);
+      background-color: #eae1ff;
+      margin: 40px;
   }
-  .container {
+  #header {
+      overflow: hidden;
+      padding: 0 20px 0px 10px;
+  }
+  #header a {
+      float: left;
+      font-family: 'Paradroid-Mono', 'Courier New', Courier, monospace;
       text-align: center;
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: var(--dkblue);
   }
-  #icon {
-      color: #9000bb;
-      transform: skewX(15deg);
-      -webkit-transform: skewX(15deg);
-      -moz-transform: skewX(15deg);
-      -o-transform: skewX(15deg);
-      -ms-transform: skewX(15deg);
-      text-shadow: 1px 1px #74caff, -1 -1 #f600e3;
+  #header a:hover {
+      color: var(--blue);
+  }
+  #header a.active {
+      color: var(--blue);
+  }
+  #header-right {
+      float: right;
+  }
+  #logo {
+      background-image: url('images/logo.png');
+      width: 250px;
+  }
+  #title {
+      font-family: 'Runalto','Times New Roman', Times, serif;
+      font-size: 1.7rem;
+      color: var(--magenta);
   }
