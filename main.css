@@ -57,12 +57,12 @@
       background-color: #eae1ff;
       margin: 40px;
   }
-  #header {
+  .header {
       overflow: hidden;
       padding: 0 20px 0px 10px;
   }
-  #header a {
-      float: left;
+  .header a {
+      float: right;
       font-family: 'Paradroid-Mono', 'Courier New', Courier, monospace;
       text-align: right;
       text-decoration: none;
@@ -70,20 +70,20 @@
       color: var(--dkblue);
       padding: 0 12px;
   }
-  #header a:hover {
+  .header a#logo {
+      float: left;
+      width: 250px;
+      display: block;
+}
+  .header a:hover {
       color: var(--blue);
   }
   #header-right {
       float: right;
   }
-  #logo {
-      float: left;
-      background-image: url('images/logo.png');
-      width: 250px;
-      display: block;
-  }
   #title {
       font-family: 'Runalto','Times New Roman', Times, serif;
       font-size: 1.8rem;
       color: var(--magenta);
+      padding-right: 12px;
   }
