@@ -15,47 +15,52 @@
   }
 
   :root {
-    --dkblue: #4a5a73;
-    --magenta: #b23eb8;
-    --yellow: #d2c71a;
-    --blue: #6dacaf;
+    --coffee: #3F3334;
+    --coral: #EC847D;
+    --mint: #AFEFC9;
+    --blue: #255C99;
   }
 
   body {
       font-size: 1.5rem;
-      color: var(--dkblue);
+      color: var(--coffee);
       background-color: white;
       margin: 40px;
   }
   .header {
       overflow: hidden;
-      padding: 0 20px 0px 10px;
+      padding: 0 20px 30px 10px;
   }
   .header a {
       font-family: 'Paradroid-Mono', 'Courier New', Courier, monospace;
       text-decoration: none;
-      font-size: 1.4rem;
-      color: var(--dkblue);
+      font-size: 1.6rem;
+      color: var(--coffee);
   }
   .header a#logo {
       float: left;
-      width: 250px;
+      width: 150px;
       display: block;
 }
   .header-right {
     float: right;
     text-align: right;
-    padding: 0 12px;
+    padding: 20px 12px 0 0;
 }
   .header-right a {
-      margin: 0 4px;
+      margin: 10px 0 0 32px;
   }
   .header-right a:hover {
-      color: var(--blue);
+      color: var(--coral);
   }
   #title {
       font-family: 'Runalto','Times New Roman', Times, serif;
       font-size: 1.8rem;
-      color: var(--magenta);
+      color: var(--coffee);
       margin-right: 4px;
   }
+  h1 {
+    font-family: 'Paradroid-Mono', 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: var(--coffee);
+}
