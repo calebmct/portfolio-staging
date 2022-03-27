@@ -75,12 +75,12 @@ margin-right: 4px;
 #section-bg {
   z-index: 1;
   position: absolute;
-  top: 60%;
+  margin-top: 18px;
   left:0;
   background: var(--yellow);
   transform: rotate(3deg);
   transform-origin: 0% 0%;
-  height: 80%;
+  height: 40px;
   animation-name: title;
   animation-duration: .75s;
   animation-timing-function: ease-out;
