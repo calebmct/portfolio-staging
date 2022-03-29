@@ -43,10 +43,16 @@ body {
   width: 150px;
   display: block;
 }
+@keyframes main-links {
+  0% {opacity:0; padding-top: 0px;}
+  50% {opacity: 50%;}
+  100% {opacity:100%; padding-top: 20px;}
+}
 .header-right {
 float: right;
 text-align: right;
-padding: 20px 12px 0 0;
+padding-right: 12px;
+animation: main-links 1s cubic-bezier(0.02, 0.7, 0.64, 0.99) forwards;
 }
 .header-right a {
   margin: 10px 0 0 32px;
@@ -81,10 +87,9 @@ margin-right: 4px;
   transform: rotate(3deg);
   transform-origin: 0% 0%;
   height: 40px;
-  animation-name: title;
-  animation-duration: .75s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
+  width: 400px;
+/*  animation: title .75s ease-out;
+  animation-fill-mode: forwards;*/
 }
 .section-title {
   font-family: 'Paradroid-Mono', 'Courier New', Courier, monospace;
